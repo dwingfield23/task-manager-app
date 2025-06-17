@@ -1,0 +1,21 @@
+{
+	"name": "task-manager-app",
+	"version": "1.0.0",
+	"description": "Full stack task management application built with React, Redux, Tailwind, Express, and PostgreSQL.",
+	"private": true,
+	"scripts": {
+		"client": "npm start --prefix client",
+		"client:install": "npm install --prefix client",
+		"client:build": "npm run build --prefix client",
+		"server": "npm start --prefix server",
+		"server:dev": "npm run dev --prefix server",
+		"server:install": "npm install --prefix server",
+		"test": "npm run test --prefix client && npm run test --prefix server",
+		"install:all": "npm run client:install && npm run server:install"
+	},
+	"engines": {
+		"node": ">=18.0.0"
+	},
+	"author": "David Wingfield",
+	"license": "MIT"
+}

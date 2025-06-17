@@ -1,0 +1,55 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# dotenv environment variables
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+
+# Vite cache
+.vite/
+
+# Mac system files
+.DS_Store
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+
+# OS-generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Testing
+coverage/
+*.lcov
+
+# PostgreSQL dump or temp files
+*.sql
+*.dump
+
+# Server-specific
+server/node_modules/
+server/dist/
+
+# Client-specific
+client/node_modules/
+client/dist/
+client/.vite/
+
+# Optional: exclude test DB if it exists
+*.test.db
